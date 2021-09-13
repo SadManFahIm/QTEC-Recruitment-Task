@@ -27,7 +27,7 @@ SECRET_KEY = '*aodyphj@ixqnr-c3w6o_tt5@xae(0w=g_7!6(_=^)myzd17ar'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['qtec-recruitment-task.herokuapp.com/']
+ALLOWED_HOSTS = ['qtec-recruitment-task.herokuapp.com']
 
 # Application definition
 
