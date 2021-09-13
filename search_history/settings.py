@@ -138,7 +138,7 @@ STATICFILES_DIRS = [
     STATIC_DIR,
 ]
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.django.CompressedManifestStaticFilesStorage'
 # custom user model
 AUTH_USER_MODEL = "accounts.CustomUser"
 
